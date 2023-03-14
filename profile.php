@@ -8,6 +8,7 @@
 	<style>
 		body {
 			background-color: #27ae60;
+			padding: 50px;
 		}
 	</style>
 </head>
@@ -26,24 +27,28 @@
 			Syntax PHP dijalankan hanya di dalam dokumen dengan extensi *.php
 		*/
 
-		$angak1 = 10;
+		# Membuat Variabel PHP
+
+		$angka1 = 10;
 		$angka2 = 5;
 
-		#penjumlahan
+		# Penjumlahan
 		$jumlah = $angka1 + $angka2;
 		// echo $jumlah;
 
-		#pengurangan
+		# Pengurangan
 		$pengurangan = $angka1 - $angka2;
-		// echo $pengurangan;
-	 ?>
+		// echo $pengurangan
+
+
+	?>
 
 	 <h2>Hasil Penjumlahan</h2>
 	 <p>
 	 	<?php echo $jumlah; ?>
 	 </p>
 
-	 <h3>Hasil Pengurangan</h3>
+	 <h2>Hasil Pengurangan</h2>
 	 <p>
 	 	<?php echo $pengurangan; ?>
 	 </p>
